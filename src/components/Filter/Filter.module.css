@@ -1,0 +1,31 @@
+.filter_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.filter_title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.filter_input {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: 1px solid rgba(43, 29, 245, 0.8);
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.filter_input:hover,
+.filter_input:focus {
+  box-shadow: 0 0 10px rgba(43, 29, 245, 0.8);
+}

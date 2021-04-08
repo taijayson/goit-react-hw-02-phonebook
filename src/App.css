@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  padding: 30px 15px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(43, 29, 245, 0.8);
+  text-shadow: 0 0 10px rgba(43, 29, 245, 0.3);
+}
